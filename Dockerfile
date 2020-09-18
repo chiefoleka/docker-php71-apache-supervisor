@@ -40,6 +40,7 @@ RUN docker-php-ext-install \
     calendar \
     mbstring \
     pdo_mysql \
+    gd \
     zip
 
 EXPOSE 80 443
